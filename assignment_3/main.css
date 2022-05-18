@@ -1,0 +1,915 @@
+html,
+body {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+.topMargin {
+  text-align: center;
+}
+
+.topImage {
+  margin: 0;
+  padding: 0;
+  /* height: 160px;
+ width: 270px; */
+}
+
+/* Navbar*/
+.navbar {
+  background-color: white;
+  position: relative;
+  margin-top: 2px;
+}
+.navbar ul {
+  overflow: auto;
+}
+.navbar li {
+  float: left;
+  list-style: none;
+  margin: 5px 30px;
+}
+
+.navbar li a {
+  font-family: "Varela Round", sans-serif;
+  padding: 3px 3px;
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+}
+.navbar ul {
+  margin: auto;
+}
+.nav-item {
+  margin-left: 10rem;
+  text-align: center;
+}
+
+/* home page */
+element.style {
+  margin-top: 120px;
+}
+
+.frontPage {
+  background-image: url("./images/logo-2.png");
+  background-repeat: no-repeat;
+  /* background-position: center; */
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+}
+
+.front-heading {
+  color: white;
+  font-family: "Varela Round", sans-serif;
+  font-size: 40px;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.front-content {
+  color: white;
+  font-family: "Varela Round", sans-serif;
+  align-items: center;
+  text-align: justify;
+  width: 25vw;
+  margin: 25vh 40vw;
+  font-size: 20px;
+}
+
+/* slide-2 */
+
+.slide-2 {
+  background-color: #bb294b;
+  margin-top: 93vh;
+}
+.container {
+  width: 900px;
+  height: 740px;
+  display: grid;
+  grid-template-columns: 310px 310px 310px;
+  grid-template-rows: 310px 310px 310px;
+  margin: auto;
+}
+
+.item {
+  margin-top: 50px;
+  height: 300px;
+  width: 300px;
+}
+
+.i img {
+  width: 300px;
+}
+
+.i4,
+.i6 {
+  background-color: #bb294b;
+  color: white;
+  font-family: "Varela Round", sans-serif;
+  align-items: center;
+  text-align: justify;
+  margin-top: 15vh;
+  font-size: 16px;
+}
+.i2 {
+  background-color: #bb294b;
+  color: white;
+  font-family: "Varela Round", sans-serif;
+  font-size: 45px;
+  font-weight: bold;
+  align-items: center;
+  text-align: center;
+  margin-top: 15vh;
+}
+
+/* animation */
+
+.item img {
+  transition: 0.5s all ease-in-out;
+}
+
+.item:hover img {
+  transform: scale(1.05);
+}
+
+/* slide 3 */
+
+.slide-3 {
+  background-image: url("./images/IMG-20220514-WA0012.jpg");
+  background-repeat: no-repeat;
+  /* background-position: center; */
+  background-size: cover;
+  height: 70vh;
+}
+.slide3-content {
+  color: white;
+  font-family: "Varela Round", sans-serif;
+  text-align: left;
+  width: 300px;
+  display: inline;
+  position: absolute;
+  margin: 10px 10px;
+  padding: 15px 0 0 50px;
+  line-height: 25px;
+  font-style: italic;
+}
+
+/* slide 4 */
+
+.slide4-heading{
+  font-size: 40px;
+  align-items: center;
+  text-align: center;
+  width:100%;
+  margin-left:110px;
+}
+
+
+.slide4-container {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 370px 370px 370px;
+  row-gap: 10px;
+}
+.slide-4 {
+  height: 90vh;
+  background: linear-gradient(
+    to bottom,
+    #debf50 0%,
+    #debf50 20%,
+    #462b55 20%,
+    #462b55 100%
+  );
+}
+
+.item-img1 {
+  height: 300px;
+  width: 300px;
+  margin: 35px 130px;
+}
+.item-img1 img {
+  width: 120%;
+  margin: 3vh 2vw 0 0vw;
+
+}
+
+.item2 {
+  color: white;
+  font-family: "Varela Round", sans-serif;
+  font-size: 1.25rem;
+  margin: 12vh -6vw 0 6vw;
+  padding-left: 1vw;
+}
+.item-img2 {
+  height: 300px;
+  width: 300px;
+  margin: 35px 130px;
+}
+.item-img2 img {
+  width: 120%;
+  margin: 3vh 2vw 0 180px;
+}
+
+.item2-content {
+  color: white;
+  font-family: "Varela Round", sans-serif;
+  font-size: 16px;
+      line-height: 18px;
+  text-align: justify;
+  align-items: center;
+  margin: auto;
+  margin-left: -60px;
+  width: 100%;
+  padding: 1vw 3vw 0 11vw;
+  font-size: 16px;
+}
+
+/* animations */
+
+.item-img1:hover img {
+  transform: scale(1.25);
+}
+
+.item-img1 img {
+  transition: 0.5s all ease-in-out;
+}
+
+.item-img2:hover img {
+  transform: scale(1.25);
+}
+
+.item-img2 img {
+  transition: 0.5s all ease-in-out;
+}
+/* slide 5 */
+
+.slide-5 {
+  height: 100vh;
+  background: linear-gradient(
+    to bottom,
+    #462b55 0%,
+    #462b55 20%,
+    #840f41 20%,
+    #840f41 80%,
+    #462b55 80%,
+    #462b55 90%,
+    #e9cc3c 90%,
+    #e9cc3c 100%
+  );
+}
+
+.slide5-item2 > h1 {
+  font-size: 40px;
+  margin-top: 7h;
+  padding-left: 13vw;
+}
+
+.slide5-item2-content {
+  color: white;
+    font-family: "Varela Round", sans-serif;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: justify;
+    margin-top: 5vh;
+    margin-left: 10vw;
+    width: 100%;
+}
+
+.slide5-item2 {
+  color: white;
+  font-family: "Varela Round", sans-serif;
+  font-size: 1.25rem;
+  margin: 10vh -6vw 0 6vw;
+  padding-left: 1vw;
+}
+
+.slide5-item-img1 {
+  height: 300px;
+  width: 300px;
+  margin: 5vh 7vw;
+}
+
+.slide5-item-img1 img {
+  width: 120%;
+  margin-top: 15vh;
+}
+
+.slide5-item-img2 {
+  height: 300px;
+  width: 300px;
+  margin: 5vh 28vw;
+}
+
+.slide5-item-img2 img {
+  width: 120%;
+  margin-top: 15vh;
+}
+
+/* slide 6 */
+
+.slide-6 {
+  height: 100vh;
+  background: linear-gradient(#fff 0%, #fff 90%, #fff 90%, #fff 100%);
+}
+
+.slide6-container {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 500px 900px;
+  row-gap: 10px;
+}
+
+.slide6-item1 > h1 {
+  color: black;
+  font-family: "Varela Round", sans-serif;
+  font-weight: bold;
+  font-size: 2rem;
+  margin: 20vh -6vw 0 10vw;
+  padding-left: 1vw;
+}
+
+.slide6-item1-content {
+  color: black;
+  font-family: "Varela Round", sans-serif;
+  font-size: 18px;
+  text-align: justify;
+  width: 20vw;
+  margin-left: 10vw;
+  margin-top: 3vh;
+  line-height: 20px;
+  margin-bottom: 20px;
+}
+
+.slide6-list li {
+  list-style-type: disc;
+  color: black;
+  font-family: "Varela Round", sans-serif;
+  font-size: 18px;
+  text-align: justify;
+  width: 20vw;
+  margin-left: 10vw;
+  /* margin-top: 3vh; */
+  line-height: 20px;
+}
+
+.slide6-item2 {
+  height: 500px;
+  width: 500px;
+  margin-left: 30vw;
+  margin-top: 18vh;
+}
+
+/* slide 7 */
+
+.slide-7 {
+  height: 100vh;
+  background: linear-gradient(
+
+    #1b9489 0%,
+    #1b9489 90%,
+    #e9cc3c 90%,
+    #e9cc3c 100%
+  );
+}
+
+.slide7-container {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 355px 400px 355px;
+  row-gap: 10px;
+}
+
+.slide7-item2 {
+  color: white;
+  font-family: "Varela Round", sans-serif;
+  font-size: 80px;
+  font-weight: bold;
+  text-align: justify;
+  align-items: center;
+  margin: auto;
+  padding-left: 19vw;
+  padding-bottom: 19vh;
+}
+
+.slide7-item1 > img {
+  height: 400px;
+  width: 400px;
+  margin: 26px 0px;
+  padding: 31vh 4vw 0 0;
+}
+
+.slide7-item3 > img {
+  height: 400px;
+  width: 400px;
+  margin: 0vh 0 0 0px;
+  padding: 0px 0 0 27vw;
+}
+
+/* slide 8 */
+.slide-8 {
+  height: 100vh;
+  background: linear-gradient(#e9cc3c 0%, #e9cc3c 90%, #fff 90%, #fff 100%);
+}
+
+.slide8-container {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 500px 900px;
+  row-gap: 10px;
+}
+
+.slide8-item1 > h1 {
+  color: white;
+  font-family: "Varela Round", sans-serif;
+  font-weight: bold;
+  font-size: 2rem;
+  margin: 10vh -6vw 0 10vw;
+  padding-left: 1vw;
+}
+
+.slide8-item1-content {
+  color: white;
+  font-family: "Varela Round", sans-serif;
+  font-size: 18px;
+  text-align: justify;
+  width: 30vw;
+  margin-left: 10vw;
+  margin-top: 4vh;
+  line-height: 20px;
+}
+
+.slide8-item2 {
+  height: 400px;
+  width: 400px;
+}
+.slide8-item2 > img {
+
+  margin: 0 2vh 0 25vw;
+}
+
+.camelimage {
+  height:800px;
+}
+
+/* slide 9 */
+.slide-9 {
+  margin-top: 15vh;
+  background: linear-gradient(to bottom, #fff 0%, #fff 90%);
+}
+.slide9-heading {
+  color: black;
+  font-family: "Varela Round", sans-serif;
+  align-items: center;
+  text-align: center;
+  font-weight: bold;
+}
+
+.slide9-container {
+  width: 100vw;
+  height: 65h;
+  display: grid;
+  grid-template-columns: 500px 900px;
+  row-gap: 10px;
+}
+.slide9-container1 {
+  width: 400px;
+  display: grid;
+  grid-template-columns: 210px 210px 210px;
+  grid-template-rows: 210px 210px;
+  margin: 2vh 10vw 7vh 26vw;
+  row-gap: 10px;
+  column-gap: 10px;
+}
+
+.slide9-item1 {
+  margin: 15vh 6vw;
+  width: 100%;
+  color: black;
+  font-family: "Varela Round", sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: justify;
+  align-items: center;
+
+}
+.slide9-item1>h1{
+  text-align: center;
+  font-size: 38px;
+  font-weight: bold;
+  margin-bottom:16px;
+}
+
+.slide9-item2 {
+  margin: 6vh -6vw;
+  width: 100%;
+}
+.slide9-item2 > img {
+  width: 400px;
+}
+
+.slide9-content-top {
+  color: black;
+  font-family: "Varela Round", sans-serif;
+  font-size: 16px;
+  text-align: justify;
+  align-items: center;
+  margin: auto;
+  padding-left: 4vw;
+  padding-top: 2vh;
+}
+.slide9-content-bottom {
+  color: black;
+  font-family: "Varela Round", sans-serif;
+  font-size: 16px;
+  text-align: justify;
+  align-items: center;
+  margin: auto;
+  padding-left: 4vw;
+}
+
+/* animations */
+.slide9-item {
+  position: relative;
+}
+
+.slide9-image {
+  width: 100%;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.174);
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  transform: scale(0);
+  transition: 0.3s ease;
+}
+
+.slide9-item:hover .overlay {
+  transform: scale(1);
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.slide9-item:hover img {
+  transform: scale(1.05);
+}
+
+.slide9-item img {
+  transition: 0.5s all ease-in-out;
+}
+
+/* slide 10 */
+
+.slide-10 {
+  height: 110vh;
+  background: linear-gradient(
+    to right,
+    #d3c99e 0%,
+    #d3c99e 35.33%,
+    #b1b050 35.33%,
+    #b1b050 63.66%,
+    #9ab2a2 63.66%,
+    #9ab2a2 100%
+  );
+}
+
+.slide10-container {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 33.33% 33.33% 33.33%;
+  /* column-gap: 10px; */
+}
+
+.slide10-item1 {
+  margin-top: 22px;
+  height: 300px;
+  width: 300px;
+  margin-top: 4vh;
+  margin-left: 150px;
+}
+
+.slide10-item2 {
+  margin-top: 22px;
+  height: 300px;
+  width: 300px;
+  margin-top: 4vh;
+  margin-left: -4.5vw;
+}
+
+.slide10-item3 {
+  height: 300px;
+  width: 300px;
+  margin-top: 4vh;
+  margin-left: -3vw;
+}
+
+.item-content1 {
+  color: white;
+  font-family: "Varela Round", sans-serif;
+  font-size: 16px;
+  text-align: justify;
+  align-items: center;
+  margin: auto;
+  padding-left: 1vw;
+  width: 100%;
+}
+.item-content2 {
+  color: white;
+  font-family: "Varela Round", sans-serif;
+  font-size: 16px;
+  text-align: justify;
+  align-items: center;
+  margin: auto;
+  padding-left: 9vw;
+  width: 100%;
+}
+.item-content3 {
+  color: white;
+  font-family: "Varela Round", sans-serif;
+  font-size: 16px;
+  text-align: justify;
+  align-items: center;
+  margin: auto;
+  padding-left: 2vw;
+  width: 100%;
+
+}
+.slide10-heading {
+  color: white;
+  font-family: "Varela Round", sans-serif;
+  font-weight: bold;
+  font-size: 48px;
+  margin: 4vh -6vw 0 26vw;
+  padding-left: 6vw;
+  padding-top: 15vh;
+}
+
+
+/* slide 11 */
+.slide-11 {
+  height: 100vh;
+  background: linear-gradient(
+    to bottom,
+    #fff 0%,
+    #fff 90%,
+    #dfdd95 90%,
+    #dfdd95 100%
+  );
+}
+
+.slide11-container1 {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  margin: auto;
+}
+.slide11-container2 {
+  width: 500px;
+  height: 500px;
+  display: grid;
+  grid-template-columns: 250px 250px;
+  grid-template-rows: 250px 250px;
+  margin: auto;
+}
+
+.char > img {
+  width: 600px;
+}
+
+.slide11-item2 {
+  padding: 12vh 5vw;
+}
+
+.artisan-box {
+  width: 400px;
+  height: 400px;
+  background-color: #f0836c;
+  font-family: "Varela Round", sans-serif;
+  align-items: center;
+  text-align: justify;
+  /* margin: 2vh 5vw; */
+  padding: 2vh 2vw;
+}
+
+.artisan-box > h1 {
+  font-size: 30px;
+  font-weight: bold;
+  padding: 5vh 4vw;
+    margin-top: 5vh;
+}
+
+.artisan-content {
+  padding: 0vh 2vw;
+}
+
+/* animation */
+
+.char:hover img {
+  transform: scale(1.25);
+}
+.char img {
+  transition: 0.5s all ease-in-out;
+}
+
+/* slide 12 */
+
+.slide12-container {
+  width: 100vw;
+  height: 92vh;
+  display: grid;
+  grid-template-rows: 70% 30%;
+  margin: auto;
+}
+
+.slide12-containertop {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 33.33% 33.33% 33.33%;
+  margin: auto;
+}
+
+.topimg > img {
+  width: 520px;
+}
+
+.slide12-item2 {
+  background-color: #dfdd95;
+}
+.slide12-item2-content {
+  color: black;
+  font-family: "Varela Round", sans-serif;
+  font-size: 16px;
+  text-align: center;
+  align-items: center;
+  margin: auto;
+  padding: 4vw 3vw 0 2vw
+}
+
+.slide12-item2-content h1 {
+  color: black;
+  font-family: "Varela Round", sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  align-items: center;
+  margin: auto;
+  padding: 4vw 3vw 20px 2vw
+}
+/* slide 13 */
+
+.slide-13 {
+  background-color: #dfdd95;
+}
+.slide13-heading {
+  color: black;
+  font-family: "Varela Round", sans-serif;
+  font-weight: bold;
+  font-size: 38px;
+  margin: auto;
+  align-items: center;
+  padding-left: 35vw;
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+.slide13-container {
+  width: 100vw;
+  height: 75vh;
+  display: grid;
+  grid-template-rows: 80% 20%;
+  margin: auto;
+}
+
+.slide13-item2 {
+  background-color: #462b55;
+}
+
+.slide13-containertop {
+  height: 70%;
+  display: grid;
+  grid-template-columns: 33.33% 33.33% 33.33%;
+  margin: auto;
+  background-color: #dfdd95;
+}
+
+.socialvid {
+  width: 200px;
+  height: 300px;
+  /* background-color: #462b55; */
+  margin: auto;
+}
+
+.slide13-item2 {
+  background-color: #462b55;
+}
+
+.content-left {
+  display: inline-block;
+  color: white;
+  font-family: "Varela Round", sans-serif;
+  font-size: 16px;
+  text-align: justify;
+  align-items: center;
+  margin: 8vh 0 2vh 8vw;
+}
+
+.content-right {
+  display: inline-block;
+  color: white;
+  font-family: "Varela Round", sans-serif;
+  font-size: 16px;
+  text-align: justify;
+  align-items: center;
+  margin: 5vh 3vw 2vh 65vw;
+}
+
+/* Gallery */
+
+.gallery-heading{
+ align-items: center;
+ background-color: #debf50;
+ height:10vh;
+ text-align: center;
+}
+
+.gallery-heading>h1{
+ align-items: center;
+ padding-top: 2vh;
+ color: white;
+ font-family: "Varela Round", sans-serif;
+ margin: auto;
+}
+.flex-container1 {
+  display: flex;
+  width:100%;
+  height:45vh;
+  margin-top:5vh;
+
+}
+.flex-container1 div {
+  /* background-color: #c9d1cb; */
+  margin: 10px;
+  padding: 10px;
+}
+
+.flex-container2 {
+ display: flex;
+ width:100%;
+ height: 30vh;
+ margin-top:5vh;
+
+}
+.flex-container2 >div>img {
+ /* background-color: #c9d1cb; */
+ margin: 2vh 2vw 2vh 1vw;
+ padding: 10px;
+ width:20vw;
+}
+
+.flex-container3 {
+ display: flex;
+ width:100%;
+ height:60vh;
+ margin-top:2vh;
+
+}
+.flex-container3 >div>img {
+ /* background-color: #c9d1cb; */
+ margin: 2vh 2vw 2vh 1vw;
+ padding: 10px;
+ width:20vw;
+
+}
+
+.gallery-item:hover img{
+ transform: scale(1.25);
+}
+
+.gallery-item img{
+ transition: 0.5s all ease-in-out;
+}
